@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title>News</title>
+        <meta name="viewport" content="width=%%width%%, user-scalable=no, initial-scale=1" >
+        <style type="text/css">
+            /* <![CDATA[ */
+        body, h2, h3, p, ul, ol, li {
+            margin: 0;
+            font-family: "FranklinGothicFS-Cd";
+            font-size: 18px;
+            line-height: 23px;
+            letter-spacing: 0.1px;
+            color: #505050;
+            -webkit-hyphens: auto;
+            hyphens: auto;
+        }
+        body {
+            padding: 0;
+            width: 100%;
+            overflow-x: hidden;
+            word-wrap:break-word;
+        }
+        h2 {
+            font-weight: normal;
+            font-size: 21px;
+            letter-spacing: 0.2px;
+            padding: 23px 0 7px 0;
+            border-bottom: 1px solid #E0E0E0;
+            margin-bottom: 12px;
+        }
+        h3 {
+            font-weight: bold;
+            padding: 18px 0 5px 0;
+        }
+        p {
+            padding: 9px 0;
+        }
+        a, a:link, a:visited {
+            text-decoration: underline;
+            color: #505050;
+        }
+        .i1 {
+            width: 100%;
+            padding: 12px 0;
+        }
+        li {
+            list-style: none;
+            padding: 5px 0 6px 20px;
+        }
+        li:before {
+            display: block;
+            position: absolute;
+            left: 0;
+        }
+        ul, ol {
+            padding: 0;
+        }
+        ul > li:before {
+            content: '\2013';
+        }
+        ol > li {
+            counter-increment: ol-counter;
+        }
+        ol > li:before {
+            content: counter(ol-counter) ".";
+        }
+        blockquote {
+            margin: 9px 0;
+            padding: 0 0 0 12px;
+            border-left: 4px
+            solid #ccc;
+        }
+        blockquote > p {
+            padding: 0;
+        }
+        blockquote > ol > li:before, blockquote > ul > li:before {
+            left: 12px;
+        }
+        figure {
+            margin: 0; padding: 0; position: relative;
+        }
+        figcaption {
+            font-size: 14px;  line-height: 10px;
+            color: #888;
+        }
+        figcaption a, figcaption a:visited, figcaption a:link {
+            text-decoration: none;
+            color: #888;
+        }
+            .advert {
+                border-top: 1.5px solid #e9edef;
+                border-bottom: 1.5px solid #e9edef;
+                padding-top: 18px;
+                margin-left: -28px;
+                margin-right: -28px;
+                margin-bottom: 28px;
+            }
+            .advert p {
+                margin-left: 28px;
+                margin-right: 28px;
+                margin-top: 2px;
+            }
+            .advert p .i1 {
+                width: 100%;
+                padding: 12px 0;
+            }
+            .advert:before {
+                margin-left: 28px;
+                margin-right: 28px;
+                content: "Anzeige";
+                color: #999;
+                margin-top: 20px;
+                margin-bottom: 10px;
+            }
+
+        /* ]]> */
+            </style>
+    </head>
+    <body>
+        %%body%%
+    </body>
+</html>
